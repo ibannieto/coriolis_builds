@@ -1,0 +1,1412 @@
+{
+    "$schema": "https://coriolis.io/schemas/ship-loadout/4.json#",
+    "name": "Type9 Miner",
+    "ship": "Type-9 Heavy",
+    "references": [
+      {
+        "name": "Coriolis.io",
+        "url": "https://coriolis.io/outfit/type_9_heavy?code=A0pntpFklndssif63R3M3N2l2l2x---070706054dC01vC0P9--.Iw18ZQ%3D%3D.Aw18ZQ%3D%3D.H4sIAAAAAAAAA22OMQ4BYRSER1iWJcvGrqURglKlkUjQOwKJK%2BgUSicQB1A6glKhdAQRtShUCuE97wl%2FIvEXk8nMl3k%2FKA7gaYk8FiJOywYyaWLO2QnAm5%2BZawepOUJdQ85E7F0ScDs35mDlSh%2BlkumnIm7tzuxtHCA%2F84HwPWJR20BzkaReSi1zQEVdVV1dXUMdx2n8xd3pRea2J%2Bam3mSfBmZpgs9PPIXy66fUei4cX4UMKPs7sj9KWqChpjFNtyNhe2U5GP5li9T%2FkzLMewGv8e9VRgEAAA%3D%3D&bn=Type9%20Miner",
+        "code": "A0pntpFklndssif63R3M3N2l2l2x---070706054dC01vC0P9--.Iw18ZQ==.Aw18ZQ==.H4sIAAAAAAAAA22OMQ4BYRSER1iWJcvGrqURglKlkUjQOwKJK+gUSicQB1A6glKhdAQRtShUCuE97wl/IvEXk8nMl3k/KA7gaYk8FiJOywYyaWLO2QnAm5+ZawepOUJdQ85E7F0ScDs35mDlSh+lkumnIm7tzuxtHCA/84HwPWJR20BzkaReSi1zQEVdVV1dXUMdx2n8xd3pRea2J+am3mSfBmZpgs9PPIXy66fUei4cX4UMKPs7sj9KWqChpjFNtyNhe2U5GP5li9T/kzLMewGv8e9VRgEAAA==",
+        "shipId": "type_9_heavy"
+      }
+    ],
+    "components": {
+      "standard": {
+        "bulkheads": "Lightweight Alloy",
+        "cargoHatch": {
+          "enabled": true,
+          "priority": 1
+        },
+        "powerPlant": {
+          "class": 6,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "eff": 2500,
+            "integrity": -2500,
+            "pgen": 4000
+          },
+          "blueprint": {
+            "fdname": "PowerPlant_Boosted",
+            "grades": {
+              "1": {
+                "components": {
+                  "Sulphur": 1
+                },
+                "features": {
+                  "eff": [
+                    0.05,
+                    0.05
+                  ],
+                  "integrity": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "pgen": [
+                    0,
+                    0.12
+                  ]
+                },
+                "uuid": "06282764-2821-4604-ad2c-d9b148d562d0"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Heat Conduction Wiring": 1
+                },
+                "features": {
+                  "eff": [
+                    0.1,
+                    0.1
+                  ],
+                  "integrity": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "pgen": [
+                    0.12,
+                    0.19
+                  ]
+                },
+                "uuid": "feb49620-2df8-4ec6-9a58-13f986aed81f"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Heat Conduction Wiring": 1,
+                  "Selenium": 1
+                },
+                "features": {
+                  "eff": [
+                    0.15,
+                    0.15
+                  ],
+                  "integrity": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "pgen": [
+                    0.19,
+                    0.26
+                  ]
+                },
+                "uuid": "9325c166-998d-4ea6-8dab-0aafcec76705"
+              },
+              "4": {
+                "components": {
+                  "Cadmium": 1,
+                  "Conductive Ceramics": 1,
+                  "Heat Dispersion Plate": 1
+                },
+                "features": {
+                  "eff": [
+                    0.2,
+                    0.2
+                  ],
+                  "integrity": [
+                    -0.2,
+                    -0.2
+                  ],
+                  "pgen": [
+                    0.26,
+                    0.33
+                  ]
+                },
+                "uuid": "6dd84c8d-1d21-4bf5-a747-f582ffe49a99"
+              },
+              "5": {
+                "components": {
+                  "Chemical Manipulators": 1,
+                  "Conductive Ceramics": 1,
+                  "Tellurium": 1
+                },
+                "features": {
+                  "eff": [
+                    0.25,
+                    0.25
+                  ],
+                  "integrity": [
+                    -0.25,
+                    -0.25
+                  ],
+                  "pgen": [
+                    0.33,
+                    0.4
+                  ]
+                },
+                "uuid": "f8cee63e-9cdf-43e5-9584-a945d4c57aee"
+              }
+            },
+            "id": 63,
+            "modulename": [
+              "Power plant"
+            ],
+            "name": "Overcharged",
+            "grade": 5,
+            "special": {
+              "name": "Monstered",
+              "id": 124,
+              "edname": "special_powerplant_highcharge",
+              "uuid": "12a57a09-0e05-41a9-9824-14a3618e7a0f"
+            }
+          }
+        },
+        "thrusters": {
+          "class": 7,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1
+        },
+        "frameShiftDrive": {
+          "class": 6,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "integrity": -1500,
+            "mass": 3000,
+            "optmass": 5500,
+            "power": 1500
+          },
+          "blueprint": {
+            "fdname": "FSD_LongRange",
+            "grades": {
+              "1": {
+                "components": {
+                  "Atypical Disrupted Wake Echoes": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "mass": [
+                    0.1,
+                    0.1
+                  ],
+                  "optmass": [
+                    0,
+                    0.15
+                  ],
+                  "power": [
+                    0.03,
+                    0.03
+                  ]
+                },
+                "uuid": "bb67b1a2-7a5b-47bc-8ed8-e949b5e3fb16"
+              },
+              "2": {
+                "components": {
+                  "Atypical Disrupted Wake Echoes": 1,
+                  "Chemical Processors": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "mass": [
+                    0.15,
+                    0.15
+                  ],
+                  "optmass": [
+                    0.15,
+                    0.25
+                  ],
+                  "power": [
+                    0.06,
+                    0.06
+                  ]
+                },
+                "uuid": "74045351-f348-45f5-8798-487211f19520"
+              },
+              "3": {
+                "components": {
+                  "Chemical Processors": 1,
+                  "Phosphorus": 1,
+                  "Strange Wake Solutions": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.09,
+                    -0.09
+                  ],
+                  "mass": [
+                    0.2,
+                    0.2
+                  ],
+                  "optmass": [
+                    0.25,
+                    0.35
+                  ],
+                  "power": [
+                    0.09,
+                    0.09
+                  ]
+                },
+                "uuid": "cf196bb9-55a1-457f-893b-84ff2afd4db9"
+              },
+              "4": {
+                "components": {
+                  "Chemical Distillery": 1,
+                  "Eccentric Hyperspace Trajectories": 1,
+                  "Manganese": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.12,
+                    -0.12
+                  ],
+                  "mass": [
+                    0.25,
+                    0.25
+                  ],
+                  "optmass": [
+                    0.35,
+                    0.45
+                  ],
+                  "power": [
+                    0.12,
+                    0.12
+                  ]
+                },
+                "uuid": "ecf49fec-32fd-4930-949d-a341bf0fd00c"
+              },
+              "5": {
+                "components": {
+                  "Arsenic": 1,
+                  "Chemical Manipulators": 1,
+                  "Datamined Wake Exceptions": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "mass": [
+                    0.3,
+                    0.3
+                  ],
+                  "optmass": [
+                    0.45,
+                    0.55
+                  ],
+                  "power": [
+                    0.15,
+                    0.15
+                  ]
+                },
+                "uuid": "dddd4fd3-bc9a-4c5b-8606-853c63d0f554"
+              }
+            },
+            "id": 26,
+            "modulename": [
+              "Frame shift drive",
+              "FSD"
+            ],
+            "name": "Increased range",
+            "grade": 5,
+            "special": {
+              "name": "Mass Manager",
+              "id": 120,
+              "edname": "special_fsd_heavy",
+              "uuid": "4d7d30c3-970b-4c6e-a507-89ac7e6441bd"
+            }
+          }
+        },
+        "lifeSupport": {
+          "class": 5,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1
+        },
+        "powerDistributor": {
+          "class": 6,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "engcap": -500,
+            "engrate": 4500,
+            "syscap": -500,
+            "sysrate": 4500,
+            "wepcap": -500,
+            "weprate": 4500
+          },
+          "blueprint": {
+            "fdname": "PowerDistributor_HighFrequency",
+            "grades": {
+              "1": {
+                "components": {
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "engrate": [
+                    0,
+                    0.09
+                  ],
+                  "syscap": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "sysrate": [
+                    0,
+                    0.09
+                  ],
+                  "wepcap": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "weprate": [
+                    0,
+                    0.09
+                  ]
+                },
+                "uuid": "e8ce47e1-c5d7-46bf-b31e-48dcfe9ab1a5"
+              },
+              "2": {
+                "components": {
+                  "Chemical Processors": 1,
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "engrate": [
+                    0.09,
+                    0.18
+                  ],
+                  "syscap": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "sysrate": [
+                    0.09,
+                    0.18
+                  ],
+                  "wepcap": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "weprate": [
+                    0.09,
+                    0.18
+                  ]
+                },
+                "uuid": "528b87b2-157d-471e-9958-831a9962c595"
+              },
+              "3": {
+                "components": {
+                  "Chemical Distillery": 1,
+                  "Grid Resistors": 1,
+                  "Modified Consumer Firmware": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "engrate": [
+                    0.18,
+                    0.27
+                  ],
+                  "syscap": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "sysrate": [
+                    0.18,
+                    0.27
+                  ],
+                  "wepcap": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "weprate": [
+                    0.18,
+                    0.27
+                  ]
+                },
+                "uuid": "713b5e19-b7a5-447f-b450-248e771dcd72"
+              },
+              "4": {
+                "components": {
+                  "Chemical Manipulators": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Hybrid Capacitors": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "engrate": [
+                    0.27,
+                    0.36
+                  ],
+                  "syscap": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "sysrate": [
+                    0.27,
+                    0.36
+                  ],
+                  "wepcap": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "weprate": [
+                    0.27,
+                    0.36
+                  ]
+                },
+                "uuid": "1bfd4836-c69d-4adf-94dd-e7c41da96416"
+              },
+              "5": {
+                "components": {
+                  "Chemical Manipulators": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Exquisite Focus Crystals": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "engrate": [
+                    0.36,
+                    0.45
+                  ],
+                  "syscap": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "sysrate": [
+                    0.36,
+                    0.45
+                  ],
+                  "wepcap": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "weprate": [
+                    0.36,
+                    0.45
+                  ]
+                },
+                "uuid": "5adf6ae2-0e1b-4b3e-9513-9b981213cdfd"
+              }
+            },
+            "id": 57,
+            "modulename": [
+              "Power distributor",
+              "Distributor"
+            ],
+            "name": "Charge enhanced",
+            "grade": 5,
+            "special": {
+              "name": "Stripped Down",
+              "id": 132,
+              "edname": "special_powerdistributor_lightweight",
+              "uuid": "ec53deaf-ece6-443f-9503-dd3dc5329e14"
+            }
+          }
+        },
+        "sensors": {
+          "class": 4,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "integrity": -5000,
+            "mass": -8000,
+            "angle": -2500
+          },
+          "blueprint": {
+            "fdname": "Sensor_LightWeight",
+            "grades": {
+              "1": {
+                "components": {
+                  "Phosphorus": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "mass": [
+                    0,
+                    -0.2
+                  ],
+                  "angle": [
+                    -0.05,
+                    -0.05
+                  ]
+                },
+                "uuid": "239cd942-3298-4be0-b032-143961c801a1"
+              },
+              "2": {
+                "components": {
+                  "Manganese": 1,
+                  "Salvaged Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.2,
+                    -0.2
+                  ],
+                  "mass": [
+                    -0.2,
+                    -0.35
+                  ],
+                  "angle": [
+                    -0.1,
+                    -0.1
+                  ]
+                },
+                "uuid": "8dd41f78-c4f0-4107-a1fe-d1eee78bbd23"
+              },
+              "3": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Manganese": 1,
+                  "Salvaged Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.3,
+                    -0.3
+                  ],
+                  "mass": [
+                    -0.35,
+                    -0.5
+                  ],
+                  "angle": [
+                    -0.15,
+                    -0.15
+                  ]
+                },
+                "uuid": "d51697d0-c837-4c0d-a6af-f192ace27e9a"
+              },
+              "4": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Phase Alloys": 1,
+                  "Proto Light Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.4,
+                    -0.4
+                  ],
+                  "mass": [
+                    -0.5,
+                    -0.65
+                  ],
+                  "angle": [
+                    -0.2,
+                    -0.2
+                  ]
+                },
+                "uuid": "01ccf913-c1cb-47a6-9515-1d2ee3e3b2ae"
+              },
+              "5": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Proto Light Alloys": 1,
+                  "Proto Radiolic Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.5,
+                    -0.5
+                  ],
+                  "mass": [
+                    -0.65,
+                    -0.8
+                  ],
+                  "angle": [
+                    -0.25,
+                    -0.25
+                  ]
+                },
+                "uuid": "93c0ae86-d3ac-40c5-9ef3-b65c14d53cf6"
+              }
+            },
+            "id": 96,
+            "modulename": [
+              "Sensors"
+            ],
+            "name": "Lightweight",
+            "grade": 5
+          }
+        },
+        "fuelTank": {
+          "class": 6,
+          "rating": "C",
+          "enabled": true,
+          "priority": 1
+        }
+      },
+      "hardpoints": [
+        {
+          "class": 1,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "group": "Abrasion Blaster",
+          "mount": "Fixed"
+        },
+        {
+          "class": 2,
+          "rating": "B",
+          "enabled": true,
+          "priority": 1,
+          "group": "Seismic Charge Launcher",
+          "mount": "Fixed"
+        },
+        {
+          "class": 2,
+          "rating": "B",
+          "enabled": true,
+          "priority": 1,
+          "group": "Sub-Surface Displacement Missile",
+          "mount": "Fixed"
+        },
+        {
+          "class": 1,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "group": "Mining Laser",
+          "mount": "Fixed"
+        },
+        {
+          "class": 1,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "group": "Mining Laser",
+          "mount": "Fixed"
+        }
+      ],
+      "utility": [
+        {
+          "class": "0",
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Pulse Wave Analyser"
+        },
+        null,
+        null,
+        null
+      ],
+      "internal": [
+        {
+          "class": 8,
+          "rating": "E",
+          "enabled": true,
+          "priority": 1,
+          "group": "Cargo Rack"
+        },
+        {
+          "class": 8,
+          "rating": "E",
+          "enabled": true,
+          "priority": 1,
+          "group": "Cargo Rack"
+        },
+        {
+          "class": 7,
+          "rating": "E",
+          "enabled": true,
+          "priority": 1,
+          "group": "Cargo Rack"
+        },
+        {
+          "class": 6,
+          "rating": "E",
+          "enabled": true,
+          "priority": 1,
+          "group": "Cargo Rack"
+        },
+        {
+          "class": 5,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "group": "Shield Generator",
+          "modifications": {
+            "integrity": -2500,
+            "mass": -5000,
+            "optmass": -600,
+            "optmul": 1500,
+            "power": -4000
+          },
+          "blueprint": {
+            "fdname": "ShieldGenerator_Optimised",
+            "grades": {
+              "1": {
+                "components": {
+                  "Distorted Shield Cycle Recordings": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "mass": [
+                    0,
+                    -0.18
+                  ],
+                  "optmass": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "optmul": [
+                    0,
+                    0.03
+                  ],
+                  "power": [
+                    0,
+                    -0.2
+                  ]
+                },
+                "uuid": "598e0c47-ecd2-4cfa-93d1-08bbda4cd765"
+              },
+              "2": {
+                "components": {
+                  "Distorted Shield Cycle Recordings": 1,
+                  "Germanium": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "mass": [
+                    -0.18,
+                    -0.26
+                  ],
+                  "optmass": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "optmul": [
+                    0.03,
+                    0.06
+                  ],
+                  "power": [
+                    -0.2,
+                    -0.25
+                  ]
+                },
+                "uuid": "605d6333-c544-425e-96c6-a76b6b839e2c"
+              },
+              "3": {
+                "components": {
+                  "Distorted Shield Cycle Recordings": 1,
+                  "Germanium": 1,
+                  "Precipitated Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "mass": [
+                    -0.26,
+                    -0.34
+                  ],
+                  "optmass": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "optmul": [
+                    0.06,
+                    0.09
+                  ],
+                  "power": [
+                    -0.25,
+                    -0.3
+                  ]
+                },
+                "uuid": "db5f0467-5bdc-433e-986d-031bbd48067b"
+              },
+              "4": {
+                "components": {
+                  "Inconsistent Shield Soak Analysis": 1,
+                  "Niobium": 1,
+                  "Thermic Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.2,
+                    -0.2
+                  ],
+                  "mass": [
+                    -0.34,
+                    -0.42
+                  ],
+                  "optmass": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "optmul": [
+                    0.09,
+                    0.12
+                  ],
+                  "power": [
+                    -0.3,
+                    -0.35
+                  ]
+                },
+                "uuid": "88987ab7-b759-4cda-acbb-726bd0ad17c7"
+              },
+              "5": {
+                "components": {
+                  "Military Grade Alloys": 1,
+                  "Tin": 1,
+                  "Untypical Shield Scans": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.25,
+                    -0.25
+                  ],
+                  "mass": [
+                    -0.42,
+                    -0.5
+                  ],
+                  "optmass": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "optmul": [
+                    0.12,
+                    0.15
+                  ],
+                  "power": [
+                    -0.35,
+                    -0.4
+                  ]
+                },
+                "uuid": "cf878a5a-542b-46e8-8b56-4d179eac3f46"
+              }
+            },
+            "id": 76,
+            "modulename": [
+              "Shield generator",
+              "Shields"
+            ],
+            "name": "Enhanced low power",
+            "grade": 5,
+            "special": {
+              "name": "Stripped Down",
+              "id": 113,
+              "edname": "special_shield_lightweight",
+              "uuid": "91ff72db-51cf-428d-80a8-be96d6418c4b"
+            }
+          }
+        },
+        {
+          "class": 3,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Collector Limpet Controller",
+          "modifications": {
+            "integrity": -5000,
+            "mass": -8500
+          },
+          "blueprint": {
+            "fdname": "CollectionLimpet_LightWeight",
+            "grades": {
+              "1": {
+                "components": {
+                  "Phosphorus": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "mass": [
+                    0,
+                    -0.45
+                  ]
+                },
+                "uuid": "40d015c8-e3c3-4e6c-8703-0e5dc0c0ca7a"
+              },
+              "2": {
+                "components": {
+                  "Manganese": 1,
+                  "Salvaged Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.2,
+                    -0.2
+                  ],
+                  "mass": [
+                    -0.45,
+                    -0.55
+                  ]
+                },
+                "uuid": "4f4f23cf-fb43-4542-8d60-c96cf884c3c9"
+              },
+              "3": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Manganese": 1,
+                  "Salvaged Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.3,
+                    -0.3
+                  ],
+                  "mass": [
+                    -0.55,
+                    -0.65
+                  ]
+                },
+                "uuid": "9c4ebeff-12e1-4f0e-a972-bb8d4d7e4f08"
+              },
+              "4": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Phase Alloys": 1,
+                  "Proto Light Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.4,
+                    -0.4
+                  ],
+                  "mass": [
+                    -0.65,
+                    -0.75
+                  ]
+                },
+                "uuid": "befa7711-25fa-49d2-97fb-3f8a4cc8b91e"
+              },
+              "5": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Proto Light Alloys": 1,
+                  "Proto Radiolic Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.5,
+                    -0.5
+                  ],
+                  "mass": [
+                    -0.75,
+                    -0.85
+                  ]
+                },
+                "uuid": "d5c4d258-6597-4557-bc1b-b4afc7b59784"
+              }
+            },
+            "id": 16,
+            "modulename": [
+              "Collector limpet controller"
+            ],
+            "name": "Lightweight",
+            "grade": 5
+          }
+        },
+        {
+          "class": 4,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Refinery",
+          "modifications": {
+            "integrity": 24000,
+            "power": 8000
+          },
+          "blueprint": {
+            "fdname": "Refineries_Shielded",
+            "grades": {
+              "1": {
+                "components": {
+                  "Worn Shield Emitters": 1
+                },
+                "features": {
+                  "integrity": [
+                    0,
+                    0.6
+                  ],
+                  "power": [
+                    0.2,
+                    0.2
+                  ]
+                },
+                "uuid": "58578acb-b652-4a30-8ffe-e4e488325221"
+              },
+              "2": {
+                "components": {
+                  "Carbon": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.6,
+                    1.2
+                  ],
+                  "power": [
+                    0.4,
+                    0.4
+                  ]
+                },
+                "uuid": "e33c7809-d6cd-4549-8596-9400baabc3cd"
+              },
+              "3": {
+                "components": {
+                  "Carbon": 1,
+                  "High Density Composites": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "integrity": [
+                    1.2,
+                    1.8
+                  ],
+                  "power": [
+                    0.6,
+                    0.6
+                  ]
+                },
+                "uuid": "cffa4897-fa7a-44dd-8fe1-1b3702e82f9e"
+              },
+              "4": {
+                "components": {
+                  "Proprietary Composites": 1,
+                  "Shielding Sensors": 1,
+                  "Vanadium": 1
+                },
+                "features": {
+                  "integrity": [
+                    1.8,
+                    2.4
+                  ],
+                  "power": [
+                    0.8,
+                    0.8
+                  ]
+                },
+                "uuid": "48d62ffb-b0ff-47bf-9e4a-a8a4cfbd22bc"
+              }
+            },
+            "id": 92,
+            "modulename": [
+              "Refinery"
+            ],
+            "name": "Shielded",
+            "grade": 4
+          }
+        },
+        {
+          "class": 3,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Collector Limpet Controller",
+          "modifications": {
+            "integrity": -5000,
+            "mass": -8500
+          },
+          "blueprint": {
+            "fdname": "CollectionLimpet_LightWeight",
+            "grades": {
+              "1": {
+                "components": {
+                  "Phosphorus": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "mass": [
+                    0,
+                    -0.45
+                  ]
+                },
+                "uuid": "40d015c8-e3c3-4e6c-8703-0e5dc0c0ca7a"
+              },
+              "2": {
+                "components": {
+                  "Manganese": 1,
+                  "Salvaged Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.2,
+                    -0.2
+                  ],
+                  "mass": [
+                    -0.45,
+                    -0.55
+                  ]
+                },
+                "uuid": "4f4f23cf-fb43-4542-8d60-c96cf884c3c9"
+              },
+              "3": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Manganese": 1,
+                  "Salvaged Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.3,
+                    -0.3
+                  ],
+                  "mass": [
+                    -0.55,
+                    -0.65
+                  ]
+                },
+                "uuid": "9c4ebeff-12e1-4f0e-a972-bb8d4d7e4f08"
+              },
+              "4": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Phase Alloys": 1,
+                  "Proto Light Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.4,
+                    -0.4
+                  ],
+                  "mass": [
+                    -0.65,
+                    -0.75
+                  ]
+                },
+                "uuid": "befa7711-25fa-49d2-97fb-3f8a4cc8b91e"
+              },
+              "5": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Proto Light Alloys": 1,
+                  "Proto Radiolic Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.5,
+                    -0.5
+                  ],
+                  "mass": [
+                    -0.75,
+                    -0.85
+                  ]
+                },
+                "uuid": "d5c4d258-6597-4557-bc1b-b4afc7b59784"
+              }
+            },
+            "id": 16,
+            "modulename": [
+              "Collector limpet controller"
+            ],
+            "name": "Lightweight",
+            "grade": 5
+          }
+        },
+        {
+          "class": 3,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Prospector Limpet Controller",
+          "modifications": {
+            "integrity": -5000,
+            "mass": -8500
+          },
+          "blueprint": {
+            "fdname": "ProspectingLimpet_LightWeight",
+            "grades": {
+              "1": {
+                "components": {
+                  "Phosphorus": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "mass": [
+                    0,
+                    -0.45
+                  ]
+                },
+                "uuid": "bb27a6b6-5c10-41e8-a6b3-3abc8a4ed23e"
+              },
+              "2": {
+                "components": {
+                  "Manganese": 1,
+                  "Salvaged Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.2,
+                    -0.2
+                  ],
+                  "mass": [
+                    -0.45,
+                    -0.55
+                  ]
+                },
+                "uuid": "95af3c55-ec45-4f5d-848d-1639307fee41"
+              },
+              "3": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Manganese": 1,
+                  "Salvaged Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.3,
+                    -0.3
+                  ],
+                  "mass": [
+                    -0.55,
+                    -0.65
+                  ]
+                },
+                "uuid": "a3b84b26-d67e-4d8c-9653-f23181cce9f8"
+              },
+              "4": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Phase Alloys": 1,
+                  "Proto Light Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.4,
+                    -0.4
+                  ],
+                  "mass": [
+                    -0.65,
+                    -0.75
+                  ]
+                },
+                "uuid": "363a9543-4072-4211-8c89-8e9477fa72eb"
+              },
+              "5": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Proto Light Alloys": 1,
+                  "Proto Radiolic Alloys": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.5,
+                    -0.5
+                  ],
+                  "mass": [
+                    -0.75,
+                    -0.85
+                  ]
+                },
+                "uuid": "4de10a2c-e440-4b2e-95fb-e1121bff19a4"
+              }
+            },
+            "id": 65,
+            "modulename": [
+              "Prospector limpet controller"
+            ],
+            "name": "Lightweight",
+            "grade": 5
+          }
+        },
+        null,
+        null
+      ]
+    },
+    "stats": {
+      "class": 3,
+      "hullCost": 72076730,
+      "speed": 130,
+      "boost": 200,
+      "boostEnergy": 19,
+      "heatCapacity": 289,
+      "baseShieldStrength": 240,
+      "baseArmour": 480,
+      "hardness": 65,
+      "hullMass": 850,
+      "masslock": 16,
+      "pipSpeed": 0.17,
+      "fighterHangars": 1,
+      "pitch": 20,
+      "roll": 20,
+      "yaw": 8,
+      "crew": 3,
+      "moduleCostMultiplier": 1,
+      "fuelCapacity": 64,
+      "cargoCapacity": 704,
+      "passengerCapacity": 0,
+      "ladenMass": 1812.85,
+      "armour": 886.46,
+      "shield": 112.56,
+      "shieldCells": 0,
+      "totalCost": 156638549,
+      "unladenMass": 1044.85,
+      "totalDpe": 94.94,
+      "totalAbsDpe": 0,
+      "totalExplDpe": 90.28,
+      "totalKinDpe": 0,
+      "totalThermDpe": 4.67,
+      "totalDps": 41.5,
+      "totalAbsDps": 0,
+      "totalExplDps": 17.5,
+      "totalKinDps": 0,
+      "totalThermDps": 24,
+      "totalSDps": 22.07,
+      "totalAbsSDps": 0,
+      "totalExplSDps": 16.25,
+      "totalKinSDps": 0,
+      "totalThermSDps": 5.82,
+      "totalEps": 13.33,
+      "totalHps": 18.05,
+      "shieldExplRes": 0.5,
+      "shieldKinRes": 0.4,
+      "shieldThermRes": -0.2,
+      "hullExplRes": -0.23,
+      "hullKinRes": -0.05,
+      "hullThermRes": 0.12,
+      "powerAvailable": 27.78,
+      "powerRetracted": 15.79,
+      "powerDeployed": 22.54,
+      "unladenRange": 33.6,
+      "fullTankRange": 31.91,
+      "ladenRange": 19.52,
+      "unladenFastestRange": 261.94,
+      "ladenFastestRange": 158.6,
+      "maxJumpCount": 8,
+      "modulearmour": 0,
+      "moduleprotection": 0,
+      "hullCausRes": 0,
+      "topSpeed": 150,
+      "topBoost": 230.77,
+      "topPitch": 23.08,
+      "topRoll": 23.08,
+      "topYaw": 9.23
+    }
+  }
