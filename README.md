@@ -12,6 +12,18 @@ Default build for the [Krait Mk II](https://coriolis.io/outfit/krait_mkii)
 
 - Combat against Thargoids : Guardian Weapons and Modules
 
+## Krait Phantom
+
+- Exploration : Guardian FSD Booster, lightweight modules, low termal
+
 ## Diamonback Explorer
 
 - Exploration : Guardian FSD Booster, Engineered FSD, Lightweight modules
+
+## Imperial ships
+
+- Courier : Fighter (PVP and PVE)
+
+- Clipper : Core minning
+
+- Cutter : Core minning (WIP)
